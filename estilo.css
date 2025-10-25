@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --azul: #30358c;
+    --preto: #010101;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: var(--azul);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+nav,
+section{
+     max-width: 1200px;
+     margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ nav ul{
+    display: flex;
+ }
+
+ nav ul li{
+    list-style-type: none;
+    padding: 20px 40px;
+ }
+
+ nav ul li a{
+ color: white;
+ text-decoration: none;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--azul);
+ }
+ 
+ .logo img{
+    width: 100px;
+   margin: 10px;
+   
+ }
+  
+ main{
+    margin-top: 80px;
+ }
+
+ h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+ }
+
+ #produtos{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    flex-wrap: wrap;
+ }
+
+ .card{
+   position: relative;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+   padding: 20px;
+   margin: 20px;
+   height: 200px;
+ }
+
+ .favorito{
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    right: 20px;
+ }
+
+ h4{
+    margin: 10px;
+    height: 10px;
+    
+ }
+
+ .full{
+    background-color: var(--azul);
+    padding: 80px;
+ }
+
+ .full h3{
+    color: white;
+ }
+
+ #novidades{
+    display: flex;
+    justify-content: center;
+ }
+
+ .form_leed input{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+
+ }
+
+ .form_leed button{
+    background-color: var(--preto);
+    border: 1px solid var(--preto);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5ox;
+    cursor: pointer;
+
+ }
+
+ footer{
+    position: relative;
+    margin-top: 40px;
+    background-color: var(--preto);
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .topo{
+    width: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+  
+ }
+  
